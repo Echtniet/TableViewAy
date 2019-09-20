@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C8090DE42335450100EF3C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8090DE32335450100EF3C85 /* AppDelegate.swift */; };
-		C8090DE62335450100EF3C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8090DE52335450100EF3C85 /* ViewController.swift */; };
 		C8090DE92335450100EF3C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8090DE72335450100EF3C85 /* Main.storyboard */; };
 		C8090DEB2335450200EF3C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8090DEA2335450200EF3C85 /* Assets.xcassets */; };
 		C8090DEE2335450200EF3C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8090DEC2335450200EF3C85 /* LaunchScreen.storyboard */; };
+		C8090DF62335453900EF3C85 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8090DF52335453900EF3C85 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8090DE02335450100EF3C85 /* TableViewAy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8090DE32335450100EF3C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8090DE52335450100EF3C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8090DE82335450100EF3C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8090DEA2335450200EF3C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8090DED2335450200EF3C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8090DEF2335450200EF3C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8090DF52335453900EF3C85 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		C8090DE22335450100EF3C85 /* TableViewAy */ = {
 			isa = PBXGroup;
 			children = (
+				C8090DF52335453900EF3C85 /* TableViewController.swift */,
 				C8090DE32335450100EF3C85 /* AppDelegate.swift */,
-				C8090DE52335450100EF3C85 /* ViewController.swift */,
 				C8090DE72335450100EF3C85 /* Main.storyboard */,
 				C8090DEA2335450200EF3C85 /* Assets.xcassets */,
 				C8090DEC2335450200EF3C85 /* LaunchScreen.storyboard */,
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8090DE62335450100EF3C85 /* ViewController.swift in Sources */,
 				C8090DE42335450100EF3C85 /* AppDelegate.swift in Sources */,
+				C8090DF62335453900EF3C85 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
